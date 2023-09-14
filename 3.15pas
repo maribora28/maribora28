@@ -1,0 +1,14 @@
+program p15; 
+var a,b,c,d:integer;
+begin
+  a:=0;
+  b:=0;
+  for c:=1 to 3 do
+    begin
+writeln('Введите число');
+readln (d);
+if d>0 then a:=a+1;
+end;
+writeln (' Количество положительных чисел ',a);
+end.
+
